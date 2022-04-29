@@ -1,8 +1,8 @@
 var expense = prompt('Enter quantity of your money');
-var a = (250 + 500) * 11191.00;
-var b = 120 * 11747.42;
+var dollar = (250 + 500) * 11191.00;
+var euro = 120 * 11747.42;
 
-var sum = a + b;
+var sum = dollar + euro;
 
 if (expense >= sum) {
     console.log('Oq yo’l, Alisher!');
@@ -15,6 +15,5 @@ else if (expense < sum) {
 else {
     console.log('error')
 }
-
 
 console.log(`Umumiy ketadigan xarajatlar: ${sum}`)
